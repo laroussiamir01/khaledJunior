@@ -1,0 +1,150 @@
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+img {
+    max-width: 100%;
+}
+img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.sections3 {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#about {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fffcfc;
+    text-align: justify;
+    /*padding: 20px;*/
+    background-color: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#about-photo img {
+    height: 70%;
+    width: 70%;
+    padding-top: 50px;
+
+}
+#about-phot img {
+    height: 100%;
+    width: 100%;
+
+}
+#about:hover {
+    background-color: #0024535d;
+    transform: scale(1.0003);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#about-photoser img {
+    height: 80%;
+    width: 80%;
+    animation: zoomIn 1s ease forwards, 
+    floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;   
+
+}
+#about-photoser-1 img{
+    height: 100%;
+    width: 100%;
+    animation: zoomIn 1s ease forwards, 
+    floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;   
+}
+
+
+.heading-content {
+    margin-bottom: 1rem;
+    /*background: url(../images/488.jpg);*/
+}
+
+.heading-content h1 {
+    font-size: 40px;
+    font-family: "Raleway Webfont";
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#contoure {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: justify;
+    padding: 20px;
+    background-color: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajoutez des styles pour le paragraphe lorsqu'il est survolé */
+#contoure:hover {
+    background-color: #0024535d;
+    transform: scale(1.03);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-content {
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.btn:focus,
+.btn:active {
+    outline: inherit;
+}
+
+
+.btn-default {
+    color: #ffffff;
+    background-color: #002453;
+    border-color: transparent;
+    border-radius: 0;
+    padding: 10px 60px;
+    font-size: 16px;
+    transition: .3s ease-in-out;
+}
+
+.btn-default:active,
+.btn-default:hover {
+    background: #002453;
+    color: #fff;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center; /* Optionnel, pour aligner le contenu verticalement */
+  }
+  
+  /* Si vous voulez également aligner le contenu horizontalement */
+  .about-wrapper > * {
+    flex: 1;
+  }

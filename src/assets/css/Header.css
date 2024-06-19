@@ -1,0 +1,214 @@
+
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+img {
+    max-width: 100%;
+}
+img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.home {
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    
+}
+.home::-webkit-scrollbar {
+    display: none;
+}
+.home-main-content {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #3a393f;
+    /* slightly visible only when we resize this element */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    /* Force Hardware Acceleration in WebKit */
+    transform: translateZ(0);
+    /*backface-visibility: hidden;*/
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.home-main-content.move-out {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+}
+
+
+
+.language-select-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1.3%;
+    margin-left: 15px;
+}
+
+.language-select-container:hover .language-options {
+    display: block;
+}
+
+
+
+/* Style the language options */
+.language-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 999;
+    background-color: none;
+    /* Change the background color for the options list */
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.language-options li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.language-options li:hover {
+    background-color: none;
+    /* Change the background color on hover */
+    color: none;
+
+}
+.language-options li p:hover {
+    background-color: none;
+    /* Change the background color on hover */
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+
+}
+
+.language-options li img {
+    width: 18px;
+    /* Adjust the width of the images for each language option */
+    height: 18px;
+    /* Adjust the height of the images for each language option */
+    margin-right: 5px;
+}
+
+/* Show the language options when hovering over the select container */
+.language-select-container:hover .language-options {
+    display: block;
+}
+
+.language-options p{
+    color: white ;
+  }
+
+  .overlay {
+
+    width: 100%;
+    overflow: hidden;
+    min-height: 670px;
+}
+
+.overlay-fluid-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.home-overlay-fluid {
+    background-color: rgba(41, 41, 41, 0.68);
+    width: 80%;
+    margin: auto;
+}
+
+.overlay-img {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+
+
+.home-wrapper {
+    margin-top: 240px;
+    color: #fff;
+}
+
+.home-content h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    font-family: "Raleway Webfont";
+    letter-spacing: 12px;
+    border-top: 2px solid #ecf0f2;
+    border-bottom: 2px solid #ecf0f2;
+    padding: 20px 0;
+}
+
+.home-content p {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ecf0f2;
+}
+
+.selected-language {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: none;
+    /* Change the background color for the selected language */
+    color: rgb(255, 255, 255);
+}
+
+.selected-language img {
+    width: 18px;
+    /* Adjust the width of the selected language image */
+    height: 18px;
+    /* Adjust the height of the selected language image */
+    margin-right: 5px;
+}

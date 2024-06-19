@@ -1,0 +1,66 @@
+#Coaching {
+    background: url(../images/backs.png);
+    height: 100vh;
+}
+.sections {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+img {
+    max-width: 100%;
+}
+img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+#services-title{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 2s;
+
+  }
+
+  #services-title:hover{
+    color: #000000;
+  }
+
+  #Coaching-photo img {
+    height: 75vh;
+    width: 100vh;
+
+}
+
+.CoachingArticle {
+    padding-top: 16vh;
+}
