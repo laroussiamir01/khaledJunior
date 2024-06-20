@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import "../../public/css/services.css";
+import "../assets/css/style.css";
 import Service from "./Service";
 import { responsive, servicesData } from "./dataService";
 /* import "../assets/css/cardServices.css"; */

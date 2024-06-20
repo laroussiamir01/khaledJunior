@@ -1,0 +1,72 @@
+.FixedHeightContainer
+{
+  float:right;
+  height: 250px;
+  width:250px; 
+  padding:3px; 
+    background:#f00;
+}
+.Content
+{
+  height:224px;
+   overflow:auto;
+  
+}
+.containerr {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width:1280px;
+}
+
+.left-div,
+.right-div {
+  flex-basis: 50%;
+}
+/* Scrollbar styles */
+.scrollbar {
+    height: 300px; /* Set the desired height of the scrollable area */
+    overflow-y: auto;
+    padding-right: 10px; /* Add some padding to the right side for the scrollbar */
+  }
+  
+  .scrollbar::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Add some rounded corners to the thumb */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar thumb on hover */
+  }
+  
+  .scrollbar2 {
+    height: 150px; /* Set the desired height of the scrollable area */
+    overflow-y: auto;
+    padding-right: 10px; /* Add some padding to the right side for the scrollbar */
+  }
+  
+  .scrollbar2::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  .scrollbar2::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+  }
+  
+  .scrollbar2::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 4px; /* Add some rounded corners to the thumb */
+  }
+  
+  .scrollbar2::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the color of the scrollbar thumb on hover */
+  }
+
